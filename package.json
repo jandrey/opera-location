@@ -11,7 +11,7 @@
     "opera-location": "bin.js"
   },
   "name": "opera-location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Approximates the current location of the Opera browser across platforms.",
   "main": "module.js",
   "author": {
