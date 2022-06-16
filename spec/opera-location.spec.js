@@ -25,7 +25,7 @@ describe('opera-location', function () {
     const { spawnSync } = require( 'child_process' );
     const output = spawnSync(location);
 
-    expect(output.stdout.toString()).toBe(location)
+    expect(output.stdout).toBe(location)
     done()
   })
 })
