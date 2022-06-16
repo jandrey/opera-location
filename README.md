@@ -26,7 +26,7 @@ console.log(operaLocation())
 # /Applications/Opera.app/Contents/MacOS/Opera
 ```
 
-Open opera (remember to use quotes as opera's path usually has spaces in it):
+Open opera:
 
 ```bash
 > "`opera-location`"
