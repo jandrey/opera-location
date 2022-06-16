@@ -14,11 +14,11 @@ describe('opera-location', function () {
   // })
 
   it('outputs opera path as a cli', function (done) {
-    // mock('child_process', {
-    //   spawnSync: (location) => {
-    //     return {stdout: location}
-    //   }
-    // });
+    mock('child_process', {
+      spawnSync: (location) => {
+        return {stdout: location}
+      }
+    });
 
     const location = operaLocation()
 
