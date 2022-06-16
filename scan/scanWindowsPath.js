@@ -10,7 +10,6 @@ module.exports = function scanWindowsPath () {
     process.env['PROGRAMFILES(X86)']
   ]
   const suffix = '\\Programs\\Opera\\launcher.exe'
-console.log(prefixes)
   for (const prefix of prefixes) {
     const exe = path.join(prefix, suffix)
 
