@@ -1,5 +1,5 @@
-[action-image]: https://github.com/jandreyoliveira/opera-location/workflows/CI/badge.svg
-[action-url]: https://github.com/jandreyoliveira/opera-location/actions?query=workflow%3ACI
+[action-image]: https://github.com/jandrey/opera-location/workflows/CI/badge.svg
+[action-url]: https://github.com/jandrey/opera-location/actions?query=workflow%3ACI
 [npm-image]: https://img.shields.io/npm/v/opera-location.svg
 [npm-url]: https://npmjs.org/package/opera-location
 
