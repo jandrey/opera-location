@@ -5,7 +5,7 @@
 
 # opera-location [![workflow][action-image]][action-url] [![npm][npm-image]][npm-url]
 
-> Approximates the current location of the opera browser across platforms. Will fallback to Chromium if location is not found.
+> Approximates the current location of the Opera browser across platforms.
 
 # Usage
 
@@ -16,14 +16,14 @@
 const operaLocation = require('opera-location')
 
 console.log(operaLocation())
-// /Applications/opera.app/Contents/MacOS/opera
+// /Applications/Opera.app/Contents/MacOS/Opera
 ```
 
 **Via CLI:**
 
 ```bash
 > opera-location
-# /Applications/opera.app/Contents/MacOS/opera
+# /Applications/Opera.app/Contents/MacOS/Opera
 ```
 
 Open opera (remember to use quotes as opera's path usually has spaces in it):

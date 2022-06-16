@@ -12,12 +12,12 @@
   },
   "name": "opera-location",
   "version": "1.0.0",
-  "description": "Approximates the current location of the opera browser across platforms. Will fallback to Chromium if location is not found.",
+  "description": "Approximates the current location of the Opera browser across platforms.",
   "main": "module.js",
   "author": {
     "name": "Jandrey Oliveira",
-    "email": "boss@jandreyoliveira.net",
-    "url": "https://jandreyoliveira.net"
+    "email": "jandreyoliveira@gmail.com",
+    "url": "https://jandrey.net"
   },
   "scripts": {
     "test": "jasmine"
