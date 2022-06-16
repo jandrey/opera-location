@@ -1,0 +1,46 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandreyoliveira/opera-location.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "opera-location": "bin.js"
+  },
+  "name": "opera-location",
+  "version": "1.0.0",
+  "description": "Approximates the current location of the opera browser across platforms. Will fallback to Chromium if location is not found.",
+  "main": "module.js",
+  "author": {
+    "name": "Jandrey Oliveira",
+    "email": "boss@jandreyoliveira.net",
+    "url": "https://jandreyoliveira.net"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "files": [
+    "module.js",
+    "bin.js",
+    "scan"
+  ],
+  "keywords": [
+    "opera",
+    "browser",
+    "spawn",
+    "location",
+    "process",
+    "guesstimate"
+  ],
+  "dependencies": {
+    "userhome": "^1.0.0",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.2.0",
+    "mock-require": "^3.0.3"
+  }
+}
